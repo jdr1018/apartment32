@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/w3.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>A-32 Partners</title>
+   </head>
+   <body>
+      <div class="w3-bar w3-black w3-top w3-padding">
+         <a href="index.html" class="w3-bar-item w3-button w3-hover-red">Home</a>
+         <a href="partners.html" class="w3-bar-item w3-button w3-hover-red">Partners</a>
+         <a href="players.html" class="w3-bar-item w3-button w3-hover-red w3-hide-small">Roster</a>
+         <a href="record.html" class="w3-bar-item w3-button w3-hover-red w3-hide-small">Record</a>
+         <a href="store.html" class="w3-bar-item w3-button w3-hover-red w3-hide-small">Store</a>
+         <a href="contact.html" class="w3-bar-item w3-button w3-hover-red w3-right w3-hide-small">Contact</a>
+         <a href="#" class="w3-bar-item w3-button w3-hover-red w3-right w3-hide-small"><i class="fa fa-search"></i></a>
+         <input type="text" class="w3-bar-item w3-input w3-right w3-hide-small" placeholder="Search..">
+         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+      </div>
+      <div id="demo" class="w3-bar-block w3-black w3-padding w3-hide w3-hide-large w3-hide-medium">
+         <a href="index.html" class="w3-bar-item w3-button w3-hover-red">Home</a>
+         <a href="partners.html" class="w3-bar-item w3-button w3-hover-red">Partners</a>
+         <a href="players.html" class="w3-bar-item w3-button w3-hover-red">Roster</a>
+         <a href="record.html" class="w3-bar-item w3-button w3-hover-red">Record</a>
+         <a href="store.html" class="w3-bar-item w3-button w3-hover-red">Store</a>
+         <a href="contact.html" class="w3-bar-item w3-button w3-hover-red w3-right">Contact</a>
+         <input type="text" class="w3-bar-item w3-input w3-right" placeholder="Search..">
+         <a href="#" class="w3-bar-item w3-button w3-hover-red w3-right"><i class="fa fa-search"></i></a>
+      </div>
+      <!-- Page content -->
+      <div class="w3-content" style="max-width:2000px;margin-top:52px">
+         <div class="w3-container">
+            <div class="w3-panel">
+               <h1>No current sponsors / partners</h1>
+               <h3>Refer to our <a href="contact.html">contact page</a> if you're interested in sponsoring or partnering with us.</h3>
+            </div>
+         </div>
+         <div class="w3-container w3-black w3-bottom w3-margin-top">
+            <div class="w3-right w3-padding">
+               <p>Contact Us:
+                  <i class="fa fa-facebook-f w3-margin-left"></i>
+                  <i class="fa fa-twitter w3-margin-left"></i>
+                  <i class="fa fa-twitch w3-margin-left"></i>
+                  <i class="fa fa-youtube w3-margin-left"></i>
+               </p>
+            </div>
+         </div>
+      </div>
+      <script>
+         function myFunction() {
+             var x = document.getElementById("demo");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else { 
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+      </script>
+   </body>
+</html>
